@@ -85,6 +85,7 @@ n = input("Enter years of experience: ")
 # taking input if it is not giveb it takes default as 5
 if n == "":
     n = 5
+
 else:
     n = int(n)
 
@@ -93,3 +94,6 @@ new_data = pd.DataFrame({'YearsExperience': [n]})
 # this predict he salary
 predicted_salary = model.predict(new_data)
 print(f"Predicted Salary for {n} years of experience: {predicted_salary[0]}")
+![fig2](https://github.com/user-attachments/assets/09daef8a-0003-45c8-b00a-6da86aa6e48d)
+![fig1](https://github.com/user-attachments/assets/42250837-0365-4265-aacd-109824badf56)
+![fig3](https://github.com/user-attachments/assets/a28e7d16-2679-437f-8eeb-882d72c9ccff)
